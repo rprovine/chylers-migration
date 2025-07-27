@@ -2,6 +2,18 @@
 
 This repository contains all the documentation, scripts, and checklists needed to perform a zero-downtime migration of the Chyler's Hawaiian Beef Chips website.
 
+## 🎯 UPDATE: Shopify Integration Approach
+
+Since Chyler's uses Shopify for e-commerce and authentication, we've updated our approach to focus on Shopify integration rather than data migration. This significantly simplifies the project!
+
+### New Simplified Approach:
+- ✅ Use Shopify for all customer authentication ("Sign in with Shopify")
+- ✅ Keep all customer data, orders, and payments in Shopify
+- ✅ Integrate with Shopify APIs for products and checkout
+- ✅ No password or payment data migration needed!
+
+See [`docs/SIMPLIFIED_MIGRATION_PLAN.md`](docs/SIMPLIFIED_MIGRATION_PLAN.md) for the updated approach.
+
 ## Project Structure
 
 ```
