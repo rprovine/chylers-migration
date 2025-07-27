@@ -1,0 +1,75 @@
+# Data directories - contain sensitive customer data
+data/
+data/exports/
+data/backups/
+data/validation_report_*.txt
+data/verification_report_*.txt
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database credentials
+config.php
+database.ini
+db_config.json
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed archives with real data
+*.tar.gz
+*.zip
+*.rar
+
+# SQL dumps with real data
+*.sql
+!scripts/**/*.sql
+
+# Customer data exports
+customers_*.csv
+customers_*.json
+orders_*.csv
+orders_*.json
+
+# Image downloads
+product_images/
+
+# PHP error logs
+error_log
+php_error.log
+
+# Session files
+sess_*
+
+# Node modules (if any JS tools are added)
+node_modules/
+
+# Python virtual environments (if any Python tools are added)
+venv/
+__pycache__/
+*.pyc
+
+# Keep the directory structure
+!data/.gitkeep
+!data/exports/.gitkeep
+!data/backups/.gitkeep
